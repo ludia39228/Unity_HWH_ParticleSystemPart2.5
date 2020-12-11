@@ -10031,7 +10031,7 @@ GameObject:
   - component: {fileID: 575547719}
   - component: {fileID: 575547718}
   m_Layer: 0
-  m_Name: Point Light
+  m_Name: "\u5149"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17739,7 +17739,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 10
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -22297,7 +22297,7 @@ GameObject:
   - component: {fileID: 1187552486}
   - component: {fileID: 1187552485}
   m_Layer: 0
-  m_Name: Point Light (1)
+  m_Name: "\u5F71"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31897,7 +31897,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6192a5b3f88f29d47b42b326c64531a5, type: 3}
       propertyPath: m_Name
-      value: "\u5730\u677F (1)"
+      value: "\u5730\u677F2"
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6192a5b3f88f29d47b42b326c64531a5, type: 3}
       propertyPath: m_LocalPosition.x
