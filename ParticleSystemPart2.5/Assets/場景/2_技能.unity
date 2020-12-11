@@ -5101,7 +5101,7 @@ ParticleSystem:
   cullingMode: 0
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
@@ -10026,7 +10026,32 @@ PrefabInstance:
     - target: {fileID: 7620959504880357272, guid: 46446263413877243810670c184b9bc0,
         type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 30
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620959504880357272, guid: 46446263413877243810670c184b9bc0,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.minScalar
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620959504880357272, guid: 46446263413877243810670c184b9bc0,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620959504880357272, guid: 46446263413877243810670c184b9bc0,
+        type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620959505141441371, guid: 46446263413877243810670c184b9bc0,
+        type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620959505650559122, guid: 46446263413877243810670c184b9bc0,
+        type: 3}
+      propertyPath: looping
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7622230411480006469, guid: 46446263413877243810670c184b9bc0,
         type: 3}
@@ -22361,8 +22386,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0.05577597, y: 0.3783719, z: -0.02284292, w: -0.92368937}
-  m_LocalPosition: {x: 3.1467319, y: 1.7538652, z: -1.8011379}
+  m_LocalRotation: {x: 0.07665035, y: -0.4125554, z: 0.034866855, w: 0.907032}
+  m_LocalPosition: {x: 2.5832572, y: 1.5707989, z: -0.66657805}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -27404,7 +27429,7 @@ ParticleSystem:
   cullingMode: 0
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
